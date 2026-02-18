@@ -2394,36 +2394,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langsmith@npm:^0.3.33":
-  version: 0.3.49
-  resolution: "langsmith@npm:0.3.49"
-  dependencies:
-    "@types/uuid": "npm:^10.0.0"
-    chalk: "npm:^4.1.2"
-    console-table-printer: "npm:^2.12.1"
-    p-queue: "npm:^6.6.2"
-    p-retry: "npm:4"
-    semver: "npm:^7.6.3"
-    uuid: "npm:^10.0.0"
-  peerDependencies:
-    "@opentelemetry/api": "*"
-    "@opentelemetry/exporter-trace-otlp-proto": "*"
-    "@opentelemetry/sdk-trace-base": "*"
-    openai: "*"
-  peerDependenciesMeta:
-    "@opentelemetry/api":
-      optional: true
-    "@opentelemetry/exporter-trace-otlp-proto":
-      optional: true
-    "@opentelemetry/sdk-trace-base":
-      optional: true
-    openai:
-      optional: true
-  checksum: 10c0/7152988844b04403c6e5b1e7b321eba12d62f273c9fcd554f04cfc5f905df85c126cb81238315210a282e53b6cafe11af53878ab4a82c1cef3ad196974419782
-  languageName: node
-  linkType: hard
-
-"langsmith@npm:^0.3.67":
+"langsmith@npm:^0.3.33, langsmith@npm:^0.3.67":
   version: 0.3.87
   resolution: "langsmith@npm:0.3.87"
   dependencies:
